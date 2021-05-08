@@ -1,2 +1,1 @@
-# VScodesync
-My VS code settings.
+# All my App configuration.
