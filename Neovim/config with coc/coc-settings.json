@@ -1,0 +1,42 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
+
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "pyright.enable": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.stubPath": "typing",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.formatting.provider": "autopep8",
+  "python.sortImports.args": [],
+  "pyright.disableDiagnostics": false,
+  "pyright.completion.snippetSupport": true,
+  "pyright.organizeimports.provider": "pyright",
+
+  // clangd config
+  "clangd.enable": true,
+  "clangd.arguments": [],
+  "clangd.checkUpdates": false,
+  "clangd.disableCompletion": false,
+  "clangd.disableDiagnostics": false,
+  "clangd.disableSnippetCompletion": false,
+  "clangd.fallbackFlags": [],
+  "clangd.serverCompletionRanking": true,
+  
+  // Golang config
+  
+
+  // markdownlint config
+  "markdownlint.onOpen": true,
+  "markdownlint.onChange": true,
+  "markdownlint.onSave": true,
+  "markdownlint.config": {},
+    
+
+
+
+
+}
